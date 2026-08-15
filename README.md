@@ -24,11 +24,11 @@ Northwind's 19 interconnected tables required genuine relational SQL: JOINs acro
 - DATE_ADD for shipping deadline comparisons
 
 **Window Functions**
-- DENSE_RANK() — product revenue ranked within category (aggregated via CTE first, not per line-item)
-- ROW_NUMBER() — each customer's most recent order, filtered via a subquery wrapper (window function results can't be filtered in the same SELECT's WHERE clause)
-- SUM() OVER() — running revenue total by date, aggregated by day first
-- LAG() — month-over-month revenue growth, correctly ordered by year and month together to avoid merging across years
-- NTILE(4) — customer spend quartiles, built in two versions (active buyers only, and including zero-spend customers via LEFT JOIN + COALESCE)
+- DENSE_RANK() - product revenue ranked within category 
+- ROW_NUMBER() - each customer's most recent order, filtered via a subquery wrapper 
+- SUM() OVER() - running revenue total by date, aggregated by day first
+- LAG() - month-over-month revenue growth
+- NTILE(4) - customer spend quartiles
 
 **Subqueries & CTEs**
 - CTE-based comparison of each customer's spend against the overall average
