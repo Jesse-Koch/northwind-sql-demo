@@ -1,10 +1,10 @@
 # Northwind SQL Skills Demonstration (MySQL)
 
 ## Overview
-A focused technical project using the Northwind sample database to demonstrate comprehensive SQL proficiency (JOINs, string and datetime functions, CASE logic, window functions, subqueries, and CTEs) using a properly normalized, multi-table relational schema.
+A focused technical project using the Northwind sample database to demonstrate SQL proficiency (JOINs, string and datetime functions, CASE logic, window functions, subqueries, and CTEs) using a properly normalized, multi-table relational schema.
 
 ## Purpose
-Northwind's 19 interconnected tables required genuine relational SQL: JOINs across multiple tables, careful handling of NULLs and duplicate matches, and window functions applied correctly on top of aggregated data. This project exists specifically to demonstrate SQL technique.
+Northwind's 19 interconnected tables required relational SQL: JOINs across multiple tables, handling of NULLs and duplicate matches, and window functions applied correctly on top of aggregated data. This project exists specifically to demonstrate SQL technique.
 
 ## Skills Demonstrated
 
@@ -38,7 +38,7 @@ Northwind's 19 interconnected tables required genuine relational SQL: JOINs acro
 Northwind (MySQL port): https://github.com/dalers/mywind
 
 ## Files
-- `northwind_queries.sql` — all queries from this project, organized by skill category, with comments
+- `northwind sql queries.sql` - all queries from this project
 
 ## Note on Scope
 This dataset is intentionally small (48 orders), which limits it as a source of business insight.
