@@ -10,7 +10,7 @@ Northwind's 19 interconnected tables required genuine relational SQL: JOINs acro
 
 **Joins**
 - INNER JOIN across 2–4 tables (customers, orders, order_details, products)
-- LEFT JOIN with anti-join pattern (`WHERE ... IS NULL`) to find customers with no orders and products never sold
+- LEFT JOIN with anti-join pattern to find customers with no orders and products never sold
 - Distinguished semi-join (EXISTS) behavior from INNER JOIN duplication
 
 **String Functions**
